@@ -50,11 +50,11 @@ async def main():
     counter = 0
     while True:
         await check_offers()
-        if counter % 288 == 0:
+        if counter % 40 == 0:
             await bot.send_message(chat_id=CHAT_ID, text="✅ Бот работает. Проверки выполняются.")
 
         counter += 1
-        await asyncio.sleep(300)   # каждые 5 минут
+        await asyncio.sleep(180)   # каждые 3 минут
 
 if __name__ == "__main__":
     asyncio.run(main())
