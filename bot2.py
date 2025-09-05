@@ -50,7 +50,7 @@ async def main():
     counter = 0
     while True:
         await check_offers()
-        if counter % 3600 == 0:
+        if counter % 600 == 0:
             await bot.send_message(chat_id=CHAT_ID, text="✅ Бот работает. Проверки выполняются.")
 
         counter += 1
