@@ -5,7 +5,7 @@ from telegram import Bot
 
 # Твой токен и chat_id (user_id)
 TOKEN = "8104546885:AAGI4mGtG2xKi-GsKoHjxKRI7DZ4QDR60Ks"
-CHAT_ID = [544553533, 362700980]
+CHAT_ID = [544553533, 362700980, 78124088]
 
 # Ссылка на страницу общежитий
 URL = "https://www.stwdo.de/en/living-houses-application/current-housing-offers#residential-offer-list"
